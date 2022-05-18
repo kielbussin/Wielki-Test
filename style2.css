@@ -1,0 +1,68 @@
+body
+{
+    text-align: center;
+    background-image: url("img/oriental-tiles.png");
+    color: white;
+    text-decoration: none;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  
+  
+
+.form
+{
+    border: 5px solid black;
+    width:300px;
+    margin-left: auto;
+    margin-right:auto;
+    padding: 30px;
+    font-weight: 700;
+    border-radius:50px ;
+    -webkit-box-shadow: inset 0px 0px 63px 23px rgba(0, 19, 251, 1);
+-moz-box-shadow: inset 0px 0px 63px 23px rgb(207, 9, 9);
+box-shadow: inset 0px 0px 63px 23px rgba(0, 19, 251, 1);
+}
+input[type="text"]
+{
+    border: 5px solid black;
+    border-radius: 10px;
+   
+}
+.lrc
+{ 
+    text-align: bottom;
+    text-decoration: none;
+    font-size: 20px;
+   
+    
+}
+.user
+{
+    font-size: 30px;
+}

@@ -1,0 +1,82 @@
+body
+{
+    background-image: url("img/webb-dark.png");
+    color: white;
+    text-align: center;
+}
+
+#container
+
+{
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    padding: 50px;
+    color:white;
+    -webkit-box-shadow: 0px 0px 12px 13px rgba(255, 255, 255, 1);
+-moz-box-shadow: 0px 0px 12px 13px rgba(255, 255, 255, 1);
+box-shadow: 0px 0px 12px 13px rgba(255, 255, 255, 1);
+border-radius: 50px 50px 50px 50px;
+text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+}
+
+input[type=text],
+input[type=password]
+{
+width: 300px;
+background-color: black;
+color:white;
+border: 5px solid white;
+border-radius: 5px;
+font-size: 20px;
+font-weight: 700;
+padding:10px;
+box-sizing: border-box;
+
+}
+input[type=text]:focus,
+input[type=password]:focus
+
+{
+    text-shadow: 4px 4px 35px white;
+    -webkit-box-shadow: 8px 8px 24px 27px rgba(255, 255, 255, 0);
+-moz-box-shadow: 8px 8px 24px 27px rgba(255, 255, 255, 0);
+box-shadow: 8px 8px 24px 27px rgba(255, 255, 255, 0);
+
+}
+
+input[type=submit]
+{
+    width: 250px;
+    background-color: rgb(0, 0, 0);
+    color:white;
+    border: 3px solid white;
+    border-radius: 7px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding: 5px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+input[type=submit]:hover
+{
+    opacity: 2;
+}
+a 
+{
+    text-decoration: none;
+    color: white;
+    border: 3px solid white;
+    border-radius: 5px;
+ }
+ a:hover 
+{
+    text-decoration: none;
+    color: white;
+    border: 3px solid white;
+    border-radius: 5px;
+   text-shadow: 5px 5px 5px blue;
+   box-shadow: 0px 0px 8px 15px blue;
+ }
